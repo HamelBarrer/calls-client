@@ -1,0 +1,13 @@
+.alert {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  font-weight: bold;
+}
+
+.alert__error {
+  background-color: red;
+  color: var(--white);
+}

@@ -44,7 +44,7 @@ router.beforeEach((to, from) => {
     return { name: 'login' };
   }
 
-  if (authStore.authenticatedUser.userId !== 0 && to.name === 'auth') {
+  if (authStore.authenticatedUser.userId !== 0 && to.name === 'login') {
     return { name: 'home' };
   }
 });
