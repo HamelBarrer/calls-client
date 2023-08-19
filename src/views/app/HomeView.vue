@@ -1,7 +1,11 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h2>Hello world</h2>
+  <div class="wrapper">
+    <main class="main">
+      <h2>Hello</h2>
+    </main>
+  </div>
 </template>
 
 <style scoped></style>

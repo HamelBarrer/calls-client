@@ -39,3 +39,13 @@ body {
   color: var(--color);
   font-family: var(--font);
 }
+
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'sidebar main';
+  grid-template-columns: 15rem 1fr;
+  grid-template-rows: 3.5rem 1fr;
+  height: 100dvh;
+}
