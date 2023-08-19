@@ -1,4 +1,7 @@
 @import './base.css';
+@import './card.css';
+@import './form.css';
+@import './button.css';
 
 .main {
   grid-area: main;

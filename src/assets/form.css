@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form__input {
+  padding: 0.8rem;
+  border-radius: var(--border-radius);
+  background-color: var(--black-400);
+  color: var(--white);
+}
+
+.form__button {
+  display: flex;
+  flex-direction: column;
+}

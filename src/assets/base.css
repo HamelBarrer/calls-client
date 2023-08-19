@@ -6,6 +6,8 @@
   --black-500: #10151d;
   --black-600: #161e29;
 
+  --white: #fff;
+
   --grey-100: #bfc7d2;
   --grey-200: #8b98a9;
   --grey-300: #808c9c;
@@ -13,6 +15,7 @@
   --purple-100: #a87ffb;
 
   --border: var(--black-200);
+  --border-radius: 0.7rem;
   --background-color: var(--black-500);
   --color: var(--grey-100);
   --font: Text, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
@@ -48,4 +51,10 @@ body {
   grid-template-columns: 15rem 1fr;
   grid-template-rows: 3.5rem 1fr;
   height: 100dvh;
+}
+
+.center {
+  display: grid;
+  height: 100dvh;
+  place-items: center;
 }
