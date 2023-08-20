@@ -7,7 +7,7 @@ import SidebarComponent from '@/components/layout/SidebarComponent.vue';
   <div class="wrapper">
     <HeaderComponent />
     <SidebarComponent />
-    <main class="main">
+    <main class="main container">
       <h2>Hello</h2>
     </main>
   </div>

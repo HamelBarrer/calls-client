@@ -58,3 +58,8 @@ body {
   height: 100dvh;
   place-items: center;
 }
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
