@@ -3,6 +3,7 @@
 @import './form.css';
 @import './button.css';
 @import './alert.css';
+@import './img.css';
 
 .main {
   grid-area: main;
