@@ -5,3 +5,9 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
+.img__list {
+  height: 100%;
+  width: 10rem;
+  object-fit: cover;
+}

@@ -3,3 +3,25 @@
   border-radius: var(--border-radius);
   background-color: var(--black-200);
 }
+
+.card__img {
+  display: flex;
+  align-items: center;
+  height: 10rem;
+  border-radius: var(--border-radius);
+  background-color: var(--black-200);
+  gap: 1rem;
+  font-weight: bold;
+}
+
+.card__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

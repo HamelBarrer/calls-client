@@ -31,5 +31,9 @@ export const useAuthStore = defineStore('auth', () => {
     }
   };
 
-  return { authenticatedUser, registerAuthUser, getAuthUser };
+  const cleanAuthUser = () => {
+    localStorage.removeItem('auth');
+  };
+
+  return { authenticatedUser, registerAuthUser, getAuthUser, cleanAuthUser };
 });
