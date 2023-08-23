@@ -8,7 +8,7 @@ import SidebarComponent from '@/components/layout/SidebarComponent.vue';
     <HeaderComponent />
     <SidebarComponent />
     <main class="main container">
-      <h2>Hello</h2>
+      <RouterView />
     </main>
   </div>
 </template>

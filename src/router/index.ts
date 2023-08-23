@@ -25,11 +25,12 @@ const router = createRouter({
       meta: {
         required: true,
       },
+      component: () => import('../views/app/LayoutAppView.vue'),
       children: [
         {
           path: '',
           name: 'home',
-          component: () => import('../views/app/LayoutAppView.vue'),
+          component: () => import('../views/app/HomeView.vue'),
         },
       ],
     },

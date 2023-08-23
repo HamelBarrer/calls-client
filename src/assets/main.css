@@ -4,6 +4,7 @@
 @import './button.css';
 @import './alert.css';
 @import './img.css';
+@import './position.css';
 
 .main {
   grid-area: main;
